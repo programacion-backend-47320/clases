@@ -1,0 +1,13 @@
+// Mostrar las colecciones
+show collections
+
+// Inbsertar un documento a una collecion
+db.usuarios.insertOne({
+    name: 'Ailen',
+    age: 20,
+    lastname: 'Cury',
+    email: 'ailen@google.com'
+})
+
+// Mostrar todos los documentos de una coleccion
+db.usuarios.find()
