@@ -9,6 +9,10 @@ const app = express()
 const mongoURL = 'mongodb://admin:admin@127.0.0.1:27017'
 const mongoDBName = 'clase_47320_15'
 
+// Para traer la info de POST como JSON
+app.use(express.json())
+app.use(express.urlencoded({extended: true}))
+
 // Congiurar el motor de plantillas
 app.engine('handlebars', handlebars.engine())
 app.set('views', __dirname + '/views')

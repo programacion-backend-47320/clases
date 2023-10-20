@@ -1,7 +1,7 @@
 <div>
     {{#each pokemons }}
         <div>
-            <a href="#">
+            <a href="/pokemon/{{this.name}}">
                 <b>{{this.name}}</b>
                 <img src="{{this.photo}}" height="50">
                 <i>{{this.type}}</i>
