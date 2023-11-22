@@ -4,6 +4,11 @@
 {{#each users}}
     <li>
         {{ this.name }} <i>({{this.social}})</i>
+
+        
+
     </li>
 {{/each}}
 </ul>
+
+Session: {{#if session }}🔵{{else}}🔴{{/if}}

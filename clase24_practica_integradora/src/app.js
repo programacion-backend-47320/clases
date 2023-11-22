@@ -2,11 +2,12 @@ import express from 'express'
 import handlebars from 'express-handlebars'
 import session from 'express-session'
 import passport from 'passport'
+import mongoose from 'mongoose'
+import cookieParser from 'cookie-parser'
 import __dirname from './utils.js'
 
 import initializePassport from './config/passport.config.js'
 import sessionRouter from './routes/session.router.js'
-import mongoose from 'mongoose'
 
 const app = express()
 
@@ -20,6 +21,7 @@ app.use(session({
     resave: true,
     saveUninitialized: true
 }))
+app.use(cookieParser())
 
 // Handlebars
 app.engine('handlebars', handlebars.engine())
