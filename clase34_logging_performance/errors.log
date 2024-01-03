@@ -1,0 +1,19 @@
+{"level":"warn","message":"Se presento un warning"}
+{"level":"warn","message":"Se presento un warning"}
+{"level":"warn","message":"Se presento un warning"}
+{"level":"warn","message":"Se presento un warning"}
+{"level":"error","message":"Falta data"}
+{"level":"warn","message":"WARNING"}
+{"level":"error","message":"Errors 🛑"}
+{"level":"error","message":"Falta data"}
+{"level":"warn","message":"WARNING"}
+{"level":"error","message":"Errors 🛑"}
+{"level":"warning","message":"WARNING"}
+{"level":"error","message":"Errors 🛑"}
+{"level":"error","message":"FATAL !!! 🛑"}
+{"level":"warning","message":"WARNING"}
+{"level":"error","message":"Errors 🛑"}
+{"level":"fatal","message":"FATAL !!! 🛑"}
+{"level":"warning","message":"WARNING"}
+{"level":"error","message":"Errors 🛑"}
+{"level":"fatal","message":"FATAL !!! 🛑"}
